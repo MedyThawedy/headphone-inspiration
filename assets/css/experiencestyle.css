@@ -1,0 +1,57 @@
+.divLeftArtExperience1 {
+
+    width: 51vw;
+    height: 84vh;
+    background-image: url(../img/section-experience-1.jpg);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -17vh;
+    z-index: -1;
+}
+
+
+
+/*  --------------- The Experience -------------  */
+.p1Experience {
+    font-family: 'Work sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(234, 204, 194);
+    font-size: 1.7rem;
+}
+
+.divRightArtExperience1>p:nth-child(2) {
+    margin-top: 10vh;
+}
+
+.p2Experience {
+    font-family: 'Work sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #867772;
+    margin-top: 1vh;
+}
+
+.artExperience1 {
+    display: flex;
+    margin-top: 7vh;
+}
+
+.divRightArtExperience1 {
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+.divRightArtExperience1>p:nth-child(7) {
+    margin-top: 2.5vh;
+}
+
+
+aside {
+    position: fixed;
+    margin-top: -39vh;
+}

@@ -1,0 +1,60 @@
+.divLeftArtLounger1 {
+
+    width: 48vw;
+    height: 71vh;
+    background-image: url(../img/section-voyager.jpg);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -17vh;
+    z-index: -1;
+}
+
+
+
+/*  --------------- The lounger -------------  */
+.p1Lounger {
+    font-family: 'Work sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(234, 204, 194);
+    font-size: 1.7rem;
+}
+
+.divRightArtLounger1>p:nth-child(2) {
+    margin-top: 10vh;
+}
+
+.p2Lounger {
+    font-family: 'Work sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #867772;
+    margin-top: 1vh;
+}
+
+.artLounger1 {
+    display: flex;
+    margin-top: 7vh;
+}
+
+.divRightArtLounger1 {
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+.divRightArtLounger1>p:nth-child(9) {
+    margin-top: 2vh;
+}
+
+.divRightArtLounger1>p:nth-child(13) {
+    margin-top: 2vh;
+}
+
+aside {
+    position: fixed;
+    margin-top: -31vh;
+}
