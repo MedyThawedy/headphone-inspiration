@@ -4,7 +4,6 @@
     margin-right: auto;
     display: flex;
     margin-top: 10vh;
-
 }
 
 aside {
@@ -119,8 +118,3 @@ a:nth-child(3) {
 .divAlchemy3>p:nth-child(1) {
     margin-top: 3vh;
 }
-
-.divAlchemy1,
-.divAlchemy2,
-.divAlchemy3,
-.divAlchemy4 {}

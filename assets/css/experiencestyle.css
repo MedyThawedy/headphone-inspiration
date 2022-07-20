@@ -1,5 +1,4 @@
 .divLeftArtExperience1 {
-
     width: 51vw;
     height: 84vh;
     background-image: url(../img/section-experience-1.jpg);
@@ -10,8 +9,6 @@
     margin-top: -17vh;
     z-index: -1;
 }
-
-
 
 /*  --------------- The Experience -------------  */
 .p1Experience {

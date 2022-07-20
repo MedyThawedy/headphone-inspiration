@@ -1,5 +1,4 @@
 .divLeftArtShop1 {
-
     width: 48vw;
     height: 78vh;
     background-image: url(../img/section-composition4.jpg);
@@ -11,8 +10,6 @@
     z-index: -1;
 }
 
-
-
 /*  --------------- The lounger -------------  */
 .p1Shop {
     font-family: 'Work sans';
@@ -22,7 +19,6 @@
     color: rgb(234, 204, 194);
     font-size: 1.7rem;
 }
-
 
 .p2Shop {
     font-family: 'Work sans';
