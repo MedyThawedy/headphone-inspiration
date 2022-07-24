@@ -122,7 +122,8 @@ p:nth-child(10) {
 
 aside {
     position: fixed;
-    margin-top: -113vh;
+    margin-top: 49vh;
+    z-index:1;
 }
 
 /* https://www.youtube.com/watch?v=1EjlL4dr4ug */
@@ -159,7 +160,7 @@ aside {
 .navmenu ul li a {
     text-decoration: none;
     position: relative;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     line-height: 1rem;
     font-weight: 500;
     color: #867772;
@@ -173,10 +174,16 @@ aside {
     height: 18px;
     left: -40px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-61%);
     border-radius: 50px;
     border: 1px solid #867772;
     transition: background 250ms;
+}
+
+/* Circles hovering has to be fixed */
+.navmenu ul li a::before:hover {
+    outline: 1px solid #fff;
+    outline-offset: 3px;
 }
 
 .navmenu ul li a:hover {
