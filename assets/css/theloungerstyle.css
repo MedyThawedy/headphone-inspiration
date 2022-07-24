@@ -1,7 +1,7 @@
 .divLeftArtLounger1 {
 
-    width: 48vw;
-    height: 71vh;
+    width: 49%;
+    height: 92vh;
     background-image: url(../img/section-voyager.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
@@ -54,5 +54,5 @@
 
 aside {
     position: fixed;
-    margin-top: -31vh;
+    margin-top: 33vh;
 }
