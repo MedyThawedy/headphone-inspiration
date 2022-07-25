@@ -137,20 +137,52 @@ aside {
     padding-left: 50px;
     position: relative;
 }
-
+/*
 .navmenu ul::after {
-
     content: "";
     position: absolute;
     width: 1px;
-    /* height*/
+    /* height*/ /*
     height: calc(100% - 60px);
     background: #867772;
     left: 40px;
     top: 0;
     z-index: -1;
     margin-top: 29px;
+}*/
+
+.navmenu ul>li:nth-child(1):after, li:nth-child(2):after, li:nth-child(3):after, li:nth-child(4):after, li:nth-child(5):after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background: #867772;
+    left: 38px;
+    top: 0;
+    z-index: -1;
+    margin-top:49px;  
 }
+
+.navmenu ul>li:nth-child(1):after{
+    margin-top:49px;
+    height: calc(26% - 46px);
+}
+
+.navmenu ul>li:nth-child(2):after{
+    margin-top:128px;
+    height: calc(26% - 46px);
+}
+
+.navmenu ul>li:nth-child(3):after{
+    margin-top:207px;
+    height: calc(26% - 46px);
+}
+
+.navmenu ul>li:nth-child(4):after{
+    margin-top:286px;
+    height: calc(26% - 46px);
+}
+
+
 
 .navmenu ul li {
     padding: 30px 0;
@@ -170,9 +202,9 @@ aside {
     content: '';
     position: absolute;
     background: #2e2e2e;
-    width: 18px;
-    height: 18px;
-    left: -40px;
+    width: 11px;
+    height: 11px;
+    left: -38px;
     top: 50%;
     transform: translateY(-61%);
     border-radius: 50px;
@@ -180,8 +212,10 @@ aside {
     transition: background 250ms;
 }
 
+
+
 /* Circles hovering has to be fixed */
-.navmenu ul li a::before:hover {
+.navmenu ul li a:hover::before {
     outline: 1px solid #fff;
     outline-offset: 3px;
 }

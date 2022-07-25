@@ -1,6 +1,6 @@
 .divLeftArtShop1 {
     width: 45%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(../img/section-composition4.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
@@ -35,7 +35,7 @@
 }
 
 .divRightArtShop1 {
-    margin-top: 3vh;
+    margin-top: 4.5vh;
     margin-left: 5vw;
 }
 
